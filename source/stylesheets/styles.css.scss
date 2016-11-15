@@ -1,0 +1,5 @@
+@each $lang in langs() {
+  .#{$lang} {
+    background: image-url('background-' + $lang + '.jpg');
+  }
+}
